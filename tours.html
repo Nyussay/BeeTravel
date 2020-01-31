@@ -11,26 +11,46 @@
 	<body>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/beetravellogo.png"/></a>
-          <a href="tel:+74112505607">8(4112)50-56-07</a>
-          <a href="tel:+79142226882">8(914)222-68-82</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <a href="index.html"><img src="img/beetravellogo.png"/></a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse-navbar-collapse" id="navbarResponsive">
+          <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">ГЛАВНАЯ</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="tours.html">ТУРЫ</a>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  ТУРЫ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Раннее бронирование</a>
+                  <a class="dropdown-item" href="#">Горящие туры</a>
+                  <a class="dropdown-item" href="#">Азия</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="tours.html">Все туры</a>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="visas.html">ВИЗА</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  ВИЗА
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Шенген</a>
+                  <a class="dropdown-item" href="#">Американская</a>
+                  <a class="dropdown-item" href="#">Азия</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="visas.html">Все визы</a>
+                </div>
               </li>
+              
               <li class="nav-item">
                 <a class="nav-link" href="contacts.html">КОНТАКТЫ</a>
               </li>
+             
             </ul>
           </div>
       </div>
